@@ -19,6 +19,7 @@ public class FilmsManager {
         tmp[tmp.length - 1] = newFilm;
         Films = tmp;
     }
+
     public String[] findAll() {
         return Films;
     }
@@ -33,7 +34,7 @@ public class FilmsManager {
 
         String[] result = new String[resultLength];
         for (int i = 0; i < result.length; i++) {
-            result [i] = Films[Films.length - 1 - i];
+            result[i] = Films[Films.length - 1 - i];
         }
         return result;
 
